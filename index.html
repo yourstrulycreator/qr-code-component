@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    /*Root*/
+    :root {
+      --slate-300: #D5E1E5;
+      --slate-500: #68778D;
+      --slate-900: #1F314F;
+      --white: #FFF;
+    }
+
+    /*Style*/
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: var(--slate-300); display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .card { max-width: 320px; max-height: 500px; background-color: var(--white); border-radius: 10px; padding: 20px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  }
+    img { max-width: 100%; height: auto; margin: 10px 0; }
+    .outfit-bold { font-family: "Outfit", sans-serif; font-optical-sizing: auto; font-size: 22px; font-weight: 700; font-style: normal; color: var(--slate-900) }
+    .outfit-regular { font-family: "Outfit", sans-serif; font-optical-sizing: auto; font-size: 15px; letter-spacing: 0.2px; font-weight: 400; font-style: normal; color: var(--slate-500); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="images/image-qr-code.png">
+    <div>
+      <span class="outfit-bold">Improve your front-end skills by building projects</span>
+    </div>
+    <div>
+      <span class="outfit-regular">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</span>
+    </div>
+  </div>
+</body>
+</html>
