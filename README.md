@@ -13,3 +13,5 @@ Your challenge is to build out this QR code component and get it looking as clos
 I found it hard to center the card initally but remembered the use of display:flex and center alignment.
 
 **Had fun building!** 🚀
+
+You can visit this site here:  https://yourstrulycreator.github.io/qr-code-component/
